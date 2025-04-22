@@ -1,0 +1,30 @@
+{
+  "imports": {
+    "@david/path": "jsr:@david/path@^0.2.0",
+    "@oak/oak": "jsr:@oak/oak@^17.1.3",
+    "@simple/urlpattern-router": "jsr:@simple/urlpattern-router@^0.0.2",
+    "hono": "jsr:@hono/hono@^4.6.9"
+  },
+  "tasks": {
+    "start": "deno run --allow-net main.ts",
+    "dev": "deno run --allow-all --watch main.ts",
+    "build": "deno bundle main.ts dist/main.js",
+    "install": "deno run --allow-net main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx",
+    "lib": ["deno.window", "dom"]
+  },
+
+  "deploy": {
+    "project": "4e1efb1b-b39e-4c48-9f1e-39ebe059aa3b",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts",
+    "install": ["deno cache main.ts"],
+    "build": ["deno bundle main.ts dist/main.js"]
+  }
+}
