@@ -1,6 +1,6 @@
- ```markdown
+ 
  ![Logo del proyecto](ia.png "Logo de ProjectIA")
- ```
+ 
 
 
 # Desarrollo de laboratorio de IA
