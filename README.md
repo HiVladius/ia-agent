@@ -1,6 +1,6 @@
  
 <div style="text-align: center; margin-top: 3rem;">
-    <img src="ia.png" alt="Logo del proyecto" width="300" height="200" style="border-radius: 10px;">
+    <img src="ia.png" alt="Logo del proyecto" width="300" height="300" style="border-radius: 10px;">
 </div>
 
 # Desarrollo de laboratorio de IA
