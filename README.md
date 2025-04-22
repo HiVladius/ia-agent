@@ -1,7 +1,7 @@
  
- ![Logo del proyecto](ia.png "Logo de ProjectIA")
- 
-
+<div style="text-align: center; margin-top: 3rem;">
+    <img src="ia.png" alt="Logo del proyecto" width="300" height="200" style="border-radius: 10px;">
+</div>
 
 # Desarrollo de laboratorio de IA
 
@@ -9,11 +9,6 @@
 
 Es un desarrollo de IA usando las herramientas de Google en inteligencia artificial para crear un 
 agente de primera atención en donde podra atender desde una llamada hasta un mensaje con los contextos adecuados y presisos que se le proporcionene
-
-
-## Inserción de Imágenes en Markdown
-
-Para insertar una imagen en un archivo markdown, usa la siguiente sintaxis:
 
 
 ### DevTools
